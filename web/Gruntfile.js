@@ -60,8 +60,8 @@ module.exports = function (grunt) {
     // The actual grunt server settings
     connect: {
       options: {
-        protocol: 'https',
-        hostname: 'local.walker.intuit.com',
+        protocol: 'http',
+        hostname: 'localhost',
         port: 9000,
         livereload: 35729
       },
